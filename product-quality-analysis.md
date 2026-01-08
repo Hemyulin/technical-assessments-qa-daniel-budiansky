@@ -49,7 +49,7 @@ Explored scenarios:
 - switch language mid-flow
 - progress as guest deep into the flow
 - log in during checkout
-- create an account mid-flow and check whether the cart/config persists
+- create an account mid-flow and check whether the cart/config preserved
 - log out and log back in
 - finish flow on a different device
 - clone parcels and edit one instance
@@ -64,6 +64,11 @@ Why this matters:
 Primary worry:
 
 - late-stage revalidation or identity changes causing silent resets, duplicated items, or mismatched prices
+
+Observed behavior:
+
+- adding parcels as a guest and then logging into an existing account replaces the current cart, causing guest-added items to disappear
+- this behavior is explicitly warned in the UI, but still represents a significant conversion and trust risk when users log in late in the flow
 
 ### 2) Eligibility and destination rules (high concern)
 
