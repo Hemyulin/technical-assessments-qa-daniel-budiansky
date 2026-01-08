@@ -13,6 +13,9 @@ The goal was not exhaustive test coverage, but to demonstrate how I approach pro
 - `product-quality-analysis.md`  
   My exploratory testing notes, risk analysis, and reflections based on hands-on exploration of the live GLS parcel configuration and checkout flow.
 
+- `flow-sketch.png`  
+  A simplified data-flow sketch visualizing session, cart, and authentication state transitions across the parcel configuration and checkout flow, used to highlight high-risk, destructive vs non-destructive state changes.
+
 ## Scope and constraints
 
 - Timebox: ~2–3 hours
