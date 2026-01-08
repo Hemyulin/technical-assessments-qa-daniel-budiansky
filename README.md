@@ -54,6 +54,8 @@ The intent of the sketch is shared understanding rather than architectural preci
 
 _Simplified data-flow sketch highlighting state ownership and destructive vs non-destructive transitions during parcel configuration and checkout._
 
+https://www.figma.com/board/ozV39pk9AXyg40L4YcXhhd/GLS-NXT-flow?node-id=0-1&t=gTA92Pdu2KJZV1uY-1
+
 ## Use of tools
 
 AI tools (ChatGPT) were used as a **thinking and structuring aid**, not as a source of system knowledge.  
